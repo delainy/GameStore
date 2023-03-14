@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --bg-color: #222327;
+    --text-color: #E5E8E8 ;
+    --main-color: #3498DB;
+    --hover-color: #B2BABB;
+}
+
+body{
+    min-height: 100vh;
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 28px 12%;
+    transition: all .50s ease;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo i{
+    color: var(--main-color);
+    font-size: 28px;
+    margin-right: 3px;
+}
+
+.logo span{
+    color: var(--text-color);
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    color: var(--text-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 5px 0;
+    margin: 0px 30px;
+    transition: all .50s ease;
+}
+
+.navbar a:hover{
+    color: var(--hover-color);
+}
+
+.navbar a.active{
+    color: var(--hover-color);
+}
+
+.Navbar-Buttons{
+    display: flex;
+    align-items: center;
+}
+
+.Navbar-Buttons a{
+    margin-right: 25px;
+    margin-left: 10px;
+    color: var(--text-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: all .50s ease;
+}
+
+.Navbar-Buttons .SignIn{
+    border: 0;
+    background: none;
+}
+
+.Navbar-Buttons .user:hover{
+    color: var(--main-color);
+}
+
+.Navbar-Buttons .SignUp{
+    padding: 6px 0;
+    border-radius: 5px;
+    box-sizing: .1px;
+    border: 1px solid var(--hover-color);
+    background: none;
+}
+
+.Navbar-Buttons .SignUp:hover{
+    border: 1px solid var(--main-color);
+}
+
+.user{
+    display: flex;
+    align-items: center;
+}
+
+.Register{
+    border-color: var(--text-color);
+}
+
+#menu-icon{
+    padding: 3px;
+    font-size: 35px;
+    color: var(--text-color);
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+}
+
+@media (max-widt: 1280px){
+    header{
+        padding: 14px 2%;
+        transition: .2s;
+    }
+
+    .navbar a{
+        padding: 5px 0;
+        margin: 0px 20px;
+    }
+}
+
+@media (max-width: 1090px){
+    #menu-icon{
+        display: block;
+    }
+    .navbar{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 270px;
+        height: 29vh;
+        background: #ECF0F1;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-radius: 10px;
+        transition: all .50s ease;
+    }
+    .navbar a{
+        display: block;
+        margin: 12px 0;
+        padding: 0px 25px;
+        transition: all .50s ease;
+        color: var(--bg-color);
+    }
+    .navbar a:hover{
+        color: #B2BABB;
+        transform: translateY(5px);
+    }
+    .navbar.open{
+        right: 2%;
+    }
+}
