@@ -1,9 +1,9 @@
-// Menu suspenso do Navbar
-
+// Menu suspenso do Navbar 
+//Falha
 let menu = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
 menu.onclick = () =>{
-    menu.classList.toggle('bx-x');
+    menu.classList.toggle('bx');
     navbar.classList.toggle('open');
 }

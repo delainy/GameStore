@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Assets/Css/cadastroStyle.css">
+    <link rel="shortcut icon" href="Assets/Img/iconGlobo.svg" type="image/x-icon">
+
+    <title>Cadastrar</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="forms">
+            <div class="form singup">
+                <span class="title"><img class="logo" src="Assets/Img/iconOfci.svg">Registro</span>
+
+                <div id="msg-success"></div>
+                <form action="#" id="form">
+                    <div class="input-field">
+                        <input type="text" id="username" placeholder="Digite seu nome" required class="required">
+                        <i class="ri-user-smile-line icon"></i>
+                        <i class="zicon "><img class="img-error" src="Assets/Img/error-icon.svg"></i>
+                        <i class="zicon"><img class="img-success" src="Assets/Img/success-icon.svg"></i>
+
+                        <small>Error message</small>
+                    </div>
+                    <div class="input-field">
+                        <input type="email" id="email" placeholder="Entre no email" required class="required">
+                        <i class="ri-mail-line icon"></i>
+                        <i class="zicon"><img class="img-error" src="Assets/Img/error-icon.svg"></i>
+                        <i class="zicon"><img class="img-success" src="Assets/Img/success-icon.svg"></i>
+
+                        <small>Error message</small>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" id="senha" class="password required" placeholder="Entre com a senha" required>
+                        <i class='bx bx-lock-alt icon'></i>
+                        <i class="ri-eye-off-line showHidePw"></i>
+
+                        <small>Error message</small>
+                    </div>
+
+                    <div class="input-field button">
+                        <input type="submit" value="Entrar">
+                    </div>
+                </form>
+
+                <div class="login-sigUp">
+                    <span class="text">Já é um membro?
+                        <a href="Login.html" class="text login-link">Logar</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="Assets/JavaScript/scriptSingUp.js"></script>
+</html>

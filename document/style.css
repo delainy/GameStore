@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+
+html ::-webkit-scrollbar {
+    display: none;
+    scroll-behavior: smooth;
+    scroll-padding-top: 75px;
+}
+
+body{
+    padding-top: 56px;
+    font-family: 'Poppins', sans-serif;
+    cursor: crosshair;
+    overflow-x: hidden;
+    background: #171717;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 56px;
+    color: #fff;
+    background: #171717;
+    transition: 0.3s;
+}
+
+.navGradient{
+    position: relative;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 2000;
+    display: flex;
+    padding: 4px 12%;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(69,145,222);
+    background: linear-gradient(90deg, rgba(69,145,222,1) 17%, rgba(116,102,251,1) 90%);
+}
+
+.navGradient p{
+    font-size: 12px;
+    color: var(--bg-card);
+}
+
+nav.scrolled-down{
+    height: 80px;
+    box-shadow: 0 10px 50px rgb(0, 0, 0, 0.14);
+}
+
+nav.scrolled-down img{
+    scale: 1.25;
+}
+
+nav img{
+    width: 24px;
+    height: 24px;
+    transform-origin: 0% 50%;
+    transition: 0.3s;
+}
+
+.links{
+    display: flex;
+    gap: 16px;
+}
+
+.container{
+    margin: 0 10%;
+    width: 80%;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 1090px){
+    
+    body{
+        margin: 0;
+    }
+
+    .navGradient{
+        margin-top: 30px;
+    }
+    
+}
+
+main{
+    padding: 30px;
+}
+
+h1{
+    margin-top: 2rem;
+    color: #fff;
+}
+
+h2{
+    color:dimgray;
+}
+
+.apresentProject{
+    margin: 0 0 0 10px;
+}
+
+strong{
+    color: dodgerblue;
+}
+
+p{
+    font-size: 19px;
+    color: #535353;
+}
+
+h2{
+    font-size: 26px;
+}
+
+h3{
+    font-size: 24;
+    color: #fff;
+}
+
+.DescriGErg{
+    margin: 0 0 0 10px;
+}
+
+.DescriGErg ul li{
+    font-size: 19px;
+}
+
+h4{
+    font-size: 22;
+}
