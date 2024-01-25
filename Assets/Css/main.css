@@ -140,7 +140,7 @@ header{
     width: 380px;
     padding: 33px 20px 20px 20px;
     border-radius: 6px;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     transition: 0.3s;
 }
 
@@ -234,7 +234,7 @@ header{
 }
 
 .cart-box{
-    background-color: #ECF0F1;
+    background-color: #262626;
     border-radius: 6px;
     display: grid;
     grid-template-columns: 32% 50% 18%;
@@ -398,7 +398,7 @@ main{
 }
 
 .carrossel-text h1{
-    color: var(--bg-card);
+    color: #3498DB;
 }
 
 .carrossel-text h1 span{
@@ -456,7 +456,7 @@ main{
 }
 
 .News-card:hover{
-    background: #ECF0F1;
+    background: #B2BABB;
 }
 
 .carrossel-user img{
@@ -565,6 +565,8 @@ main{
 
 .button-value{
     margin: 0px 30px;
+    background: #171717;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     color: var(--hover-color);
     padding: 9px 16px;
     border: 0;
@@ -901,7 +903,7 @@ footer{
     left: 0;
     right: 0;
     margin: 0;
-    background: #665F5F;
+    background: #222327;
     height: auto;
     width: 100vw;
     font-family: "Open Sans";

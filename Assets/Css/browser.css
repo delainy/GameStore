@@ -388,7 +388,7 @@ header{
 
 .text-Description span{
     font-weight: 600;
-    color: #222327;
+    color: #B2BABB;
 }
 
 .text-Description p{
@@ -441,7 +441,7 @@ header{
     max-width: 800px;
     height: 200px;
     border-radius: 6px;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .Drivers-cards-header{
@@ -473,7 +473,8 @@ header{
     border: 0;
     padding: 8px 6px;
     border-radius: 4px;
-    color: #6bc691;
+    background: #6bc691;
+    color: #1b6c3d;
 }
 
 .bottom-Drivers button.button-Drivers-download{
@@ -483,7 +484,7 @@ header{
     border: 0;
     padding: 8px 6px;
     border-radius: 4px;
-    background: #d7ecf8;
+    background: #b6d5e7;
     color: var(--main-color);
     cursor: pointer;
 }
@@ -496,7 +497,7 @@ footer{
     left: 0;
     right: 0;
     margin: 0;
-    background: #dcddde;
+    background: #222327;
     height: auto;
     width: 100vw;
     font-family: "Open Sans";

@@ -15,6 +15,7 @@
 }
 
 body{
+    background: #171717;
     height: 100vh;
     display: flex;
     align-items: center;
