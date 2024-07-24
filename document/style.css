@@ -116,7 +116,7 @@ strong{
 
 p{
     font-size: 19px;
-    color: #535353;
+    color: #FFFFFF;
 }
 
 h2{
@@ -138,4 +138,9 @@ h3{
 
 h4{
     font-size: 22;
+    color: #FFFFFF;
+}
+
+ul li{
+    color: aliceblue;
 }
